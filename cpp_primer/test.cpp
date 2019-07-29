@@ -1,10 +1,12 @@
 #include <iostream>
+struct hello {
+    int *a;
+    char b;
+    char c;
+};
 
 int main()
 {
-    const int a = 42; 
-    auto j = a;
-    j = 100;
-    std::cout << j << std::endl;
+    std::cout << sizeof(6.78) << std::endl;
     return 0;
 }
